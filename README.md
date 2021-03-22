@@ -1,24 +1,24 @@
-# Desafio Técnico API de gerenciamento de sessões de votação
+# Desafio Tï¿½cnico API de gerenciamento de sessï¿½es de votaï¿½ï¿½o
 
-AAPI de sessão de votação, orientada pela abertura de uma pauta para ser votada durante um determinado período, onde somente pode haver um voto por associado.
+API de sessï¿½o de votaï¿½ï¿½o, orientada pela abertura de uma pauta para ser votada durante um determinado perï¿½odo, onde somente pode haver um voto por associado.
 
  Objetivos
   - Cadastrar uma nova pauta;
-  - Abrir uma sessão de votação em uma pauta (a sessão de votação deve ficar aberta por um tempo
+  - Abrir uma sessï¿½o de votaï¿½ï¿½o em uma pauta (a sessï¿½o de votaï¿½ï¿½o deve ficar aberta por um tempo
 determinado na chamada de abertura ou 1 minuto por default);
-  - Receber votos dos associados em pautas (os votos são apenas 'Sim'/'Não'. Cada associado é
-identificado por um id único e pode votar apenas uma vez por pauta);
-  - Contabilizar os votos e dar o resultado da votação na pauta.
-### Tech
+  - Receber votos dos associados em pautas (os votos sï¿½o apenas 'Sim'/'Nï¿½o'. Cada associado ï¿½
+identificado por um id ï¿½nico e pode votar apenas uma vez por pauta);
+  - Contabilizar os votos e dar o resultado da votaï¿½ï¿½o na pauta.
+### Tecnologias
 
 * Java 8
 * Spring Boot Web; JPA; Data; Cloud;
 * Swagger 2
-* Postgresql
+* PostgreSql
 * Lombok
 * Plataforma em nuvem heroku
 
-### Instalação
+### Instalaï¿½ï¿½o
 
 ```sh
 $ git clone https://github.com/reawmarco/api-votacao.git
@@ -28,7 +28,7 @@ $ cd target
 $ java -jar api_votacao.jar
 ```
 #### Swagger
-Produção Heroku:
+Produï¿½ï¿½o Heroku:
 ```
 https://api-desafio-back.herokuapp.com/swagger-ui.html#/
 ```
@@ -45,10 +45,10 @@ https://api-desafio-back.herokuapp.com/
 Pauta:
 https://api-desafio-back.herokuapp.com/api/v1/pauta/{id}
 
-Resultado da Sessão:
+Resultado da Sessï¿½o:
 https://api-desafio-back.herokuapp.com/api/v1/votacao/resultado/{idPauta}/{idSessaoVotacao}
 ```
 
 ### Versionamento
-    - O versionamento da api foi desenvolvido pelo número major da versão (v1) diretamente na URL de acesso.
+    - O versionamento da api foi desenvolvido pelo nï¿½mero major da versï¿½o (v1) diretamente na URL de acesso.
 
