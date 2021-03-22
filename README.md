@@ -21,11 +21,11 @@ identificado por um id único e pode votar apenas uma vez por pauta);
 ### Instalação
 
 ```sh
-$ git clone https://github.com/reawmarco/api-votacao.git
-$ cd api-votacao
+$ git clone https://github.com/FernandoDantas/desafio-back-votos
+$ cd desafio-back-votos
 $ mvn package
 $ cd target
-$ java -jar api_votacao.jar
+$ java -jar desafio-back-votos.jar
 ```
 #### Swagger
 Produção Heroku:
